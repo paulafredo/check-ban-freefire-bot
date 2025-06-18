@@ -6,7 +6,7 @@ import asyncio # Import asyncio for timeout
 load_dotenv()
 
 async def check_ban(uid: str) -> dict | None:
-    api_url = f"https://api-check-ban.vercel.app/check_ban/{uid}"
+    api_url = f"https://api-check-ban.vercel.app/check_ban/305000592{uid}"
     
     timeout = aiohttp.ClientTimeout(total=10) # 10 seconds total timeout
 
